@@ -23,61 +23,31 @@ ol {
     border-style: solid;
     border-color: #a3d9ff;
     margin: 30px; 
-    text-align: left;
+    text-align: center;
     
 }
-ol,ul {
-	list-style: none;
-} 
-li a {
-    display: block;
-    width: 60px;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
-  }
-  
-  li a {
-    display: block;
-  }
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-  }
-  
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: #555;
-    color: white;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
 
-.active {
-    background-color: #4CAF50;
-    color: white;
-  }
-  ul {
-    border: 1px solid #555;
-  }
-  
-  li {
-    text-align: center;
-    border-bottom: 1px solid #555;
-  }
-  
-  li {
-    border-bottom: none;
-  }
-  
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}       
+                                      
